@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:labsheet1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
         <ListBox HorizontalAlignment="Left" Height="256" Margin="80,103,0,0" VerticalAlignment="Top" Width="196"/>
         <ListBox HorizontalAlignment="Left" Height="130" Margin="470,206,0,0" VerticalAlignment="Top" Width="200"/>

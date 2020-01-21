@@ -6,11 +6,27 @@ using System.Threading.Tasks;
 
 namespace labsheet1
 {
-    class Band
+    public class Band
     {
         public string Bandname { get; set; }
-        public DateTime YearFormed { get; set; }
+        public int YearFormed { get; set; }
         public string Members { get; set; }
 
+    
+    public Band(string name, int yearformed, string members)
+    {
+            Bandname = name;
+            YearFormed = yearformed;
+            Members = members;
+
+          
+
+    }
+    public override string ToString()
+    {
+        //formatting string
+
+        return $"{Bandname}\t{YearFormed}\t{Members}";
+    }
     }
 }

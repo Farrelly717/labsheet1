@@ -23,6 +23,22 @@ namespace labsheet1
         public MainWindow()
         {
             InitializeComponent();
+            /*     Player player5 = new Player(5, "Pauline", 0);
+            //List part6
+            List<Player> allPlayers = new List<Player>();*/
+           
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            Band b1 = new Band("Nirvana", 1991, "Kurt");
+            Band b2 = new Band("Imagine dragons", 2001, "Henry");
+            Band b3 = new Band("Mettallica", 1980, "James Hetfield");
+            Band b4 = new Band("One Direction", 2011, "kurt");
+            Band b5 = new Band("Megadeth", 1985, "Dave Mustaine");
+            Band b6 = new Band("Foo Fighters", 1999, "Dave Grohl");
+
+
         }
     }
 }
