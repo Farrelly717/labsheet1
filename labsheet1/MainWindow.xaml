@@ -10,11 +10,11 @@
         <ListBox HorizontalAlignment="Left" Height="256" Margin="80,103,0,0" VerticalAlignment="Top" Width="196"/>
         <ListBox HorizontalAlignment="Left" Height="130" Margin="470,206,0,0" VerticalAlignment="Top" Width="200"/>
         <ComboBox HorizontalAlignment="Left" Margin="156,63,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.899,-1.066"/>
-        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="595,361,0,0"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="470,175,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.564,1.419"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="80,22,0,0" VerticalAlignment="Top"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="470,67,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.887,-7.911"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="88,63,0,0" VerticalAlignment="Top" Height="22" Width="54" RenderTransformOrigin="0.431,1.712"/>
+        <Button Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="595,361,0,0"/>
+        <Label Content="Albums" HorizontalAlignment="Left" Margin="470,175,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.564,1.419" FontSize="16"/>
+        <Label Content="Bands" HorizontalAlignment="Left" Margin="80,22,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <Label Content="Band Information" HorizontalAlignment="Left" Margin="470,67,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.887,-7.911" FontWeight="Bold" FontSize="18"/>
+        <Label Content="Genre" HorizontalAlignment="Left" Margin="88,61,0,0" VerticalAlignment="Top" Height="24" Width="53" RenderTransformOrigin="0.431,1.712"/>
         <TextBlock HorizontalAlignment="Left" Margin="470,112,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="63" Width="180"/>
 
     </Grid>
