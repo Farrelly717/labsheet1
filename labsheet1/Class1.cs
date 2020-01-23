@@ -17,8 +17,6 @@ namespace labsheet1
     {
             public override string ToString()
             {
-                //formatting string
-
                 return (this.Bandname + " - Rock");
             }
         }
@@ -26,8 +24,6 @@ namespace labsheet1
         {
             public override string ToString()
             {
-                //formatting string
-
                 return (this.Bandname + " - Pop");
             }
         }
@@ -35,8 +31,6 @@ namespace labsheet1
         {
             public override string ToString()
             {
-                //formatting string
-
                 return (this.Bandname + " - Indie");
             }
         }

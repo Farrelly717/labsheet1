@@ -23,8 +23,7 @@ namespace labsheet1
         public MainWindow()
         {
             InitializeComponent();
-            cboxgenre.ItemsSource = new string[] {"Genre","Rock", "pop","indie" };
-           
+     
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -36,7 +35,10 @@ namespace labsheet1
             Band.IndieBand i2 = new Band.IndieBand("Seven nation Army", 1985, "Dave Mustaine");
             Band.RockBand r2 = new Band.RockBand("Foo Fighters", 1999, "Dave Grohl");
             Band[] bandscreated = { r1, r2, p1, p2, i1, i2 };
-            return bandscreated;
+       
+            cboxgenre.ItemsSource = new string[] { "Rock", "Pop", "Indie" };
+            lbxband.ItemsSource = bandscreated;
+           // return bandscreated;
 
 
         }
