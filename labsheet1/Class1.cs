@@ -6,27 +6,39 @@ using System.Threading.Tasks;
 
 namespace labsheet1
 {
-    public class Band
+    public abstract class Band
     {
         public string Bandname { get; set; }
         public int YearFormed { get; set; }
         public string Members { get; set; }
 
     
-    public Band(string name, int yearformed, string members)
+    public class RockBand : Band 
     {
-            Bandname = name;
-            YearFormed = yearformed;
-            Members = members;
+            public override string ToString()
+            {
+                //formatting string
 
-          
+                return (this.Bandname + " - Rock");
+            }
+        }
+        public class PopBand : Band
+        {
+            public override string ToString()
+            {
+                //formatting string
 
-    }
-    public override string ToString()
-    {
-        //formatting string
+                return (this.Bandname + " - Pop");
+            }
+        }
+        public class IndieBand : Band
+        {
+            public override string ToString()
+            {
+                //formatting string
 
-        return $"{Bandname}\t{YearFormed}\t{Members}";
-    }
-    }
+                return (this.Bandname + " - Indie");
+            }
+        }
+    }      
 }

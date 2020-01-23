@@ -23,20 +23,20 @@ namespace labsheet1
         public MainWindow()
         {
             InitializeComponent();
-            /*     Player player5 = new Player(5, "Pauline", 0);
-            //List part6
-            List<Player> allPlayers = new List<Player>();*/
+            cboxgenre.ItemsSource = new string[] {"Genre","Rock", "pop","indie" };
            
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            Band b1 = new Band("Nirvana", 1991, "Kurt");
-            Band b2 = new Band("Imagine dragons", 2001, "Henry");
-            Band b3 = new Band("Mettallica", 1980, "James Hetfield");
-            Band b4 = new Band("One Direction", 2011, "kurt");
-            Band b5 = new Band("Megadeth", 1985, "Dave Mustaine");
-            Band b6 = new Band("Foo Fighters", 1999, "Dave Grohl");
+            Band.RockBand r1 = new Band.RockBand("Nirvana", 1991, "Kurt");
+            Band.PopBand p1 = new Band.PopBand("Imagine dragons", 2001, "Henry");
+            Band.IndieBand i1 = new Band.IndieBand("Arctic Monkeys", 1980, "James Hetfield");
+            Band.PopBand p2 = new Band.PopBand("One Direction", 2011, "kurt");
+            Band.IndieBand i2 = new Band.IndieBand("Seven nation Army", 1985, "Dave Mustaine");
+            Band.RockBand r2 = new Band.RockBand("Foo Fighters", 1999, "Dave Grohl");
+            Band[] bandscreated = { r1, r2, p1, p2, i1, i2 };
+            return bandscreated;
 
 
         }
